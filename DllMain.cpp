@@ -8,9 +8,10 @@
 #include <fstream>
 #include <string>
 
+#pragma warning(disable : 4996)
+
 using namespace std;
 
-#pragma warning(disable : 4996)
 
 typedef const char* (__fastcall* tLiveStats_SetClanTag)(__int64 client, const char* clantag);
 
