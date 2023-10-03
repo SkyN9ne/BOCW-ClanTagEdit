@@ -18,7 +18,7 @@ typedef const char* (__fastcall* tLiveStats_SetClanTag)(__int64 client, const ch
 tLiveStats_SetClanTag LiveStats_SetClanTag;
 
 uintptr_t moduleBase = (uintptr_t)GetModuleHandle(L"BlackOpsColdWar.exe");
-__int64 TagOffset = 0x01; // OFFSET NEEDS TO BE UPDATED VIA THE SIG
+__int64 TagOffset = 0x01; // OFFSET NEEDS TO BE UPDATED VIA THE SIG! See https://unknowncheats.me/forum/call-of-duty-black-ops-cold-war/514606-code-clan-tags-cold-war.html
 
 
 void MainThread()
